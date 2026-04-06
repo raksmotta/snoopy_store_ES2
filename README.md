@@ -2,9 +2,9 @@
 
 Este projeto é um MVP de e-commerce que demonstra a implementação de persistência de dados utilizando Spring Data JPA e Hibernate. O foco principal é a gestão de entidades e a automação do ciclo de vida do banco de dados MySQL.
 
-## Disciplina: Engenharia de Software II
+**PUC Minas - Ciência da Computação - Engenharia de Software II**
 
-## Alunos: Antônio Drumond e Raquel Motta
+**Alunos: Antônio Drumond e Raquel Motta**
 
 ## 🛠️ Foco Técnico: Hibernate & Persistência
 
