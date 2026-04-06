@@ -1,16 +1,18 @@
-# snoopy_store_ES2
+# Snoopy Store
+
 Este projeto é um MVP de e-commerce que demonstra a implementação de persistência de dados utilizando Spring Data JPA e Hibernate. O foco principal é a gestão de entidades e a automação do ciclo de vida do banco de dados MySQL.
 
-Disciplina: Engenharia de Software II
-Alunos: Antônio Drumond e Raquel Motta
+## Disciplina: Engenharia de Software II
 
-🛠️ Foco Técnico: Hibernate & Persistência
+## Alunos: Antônio Drumond e Raquel Motta
+
+## 🛠️ Foco Técnico: Hibernate & Persistência
 
 Este foi um projeto didático para aprender Hibernate/JPA, evidenciando sua competência em persistência de dados, mapeamento objeto-relacional (ORM) e integridade referencial.
 
 A arquitetura de dados foi desenhada para explorar os recursos do Hibernate, garantindo que a lógica de negócio esteja fortemente vinculada à integridade do banco.
 
-🚀 Funcionalidades do MVP
+## 🚀 Funcionalidades do MVP
 
 Polimorfismo de Produtos: Cadastro dinâmico de itens com campos específicos validados via Hibernate.
 
