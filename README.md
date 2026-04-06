@@ -4,7 +4,9 @@ Este projeto é um MVP de e-commerce que demonstra a implementação de persist�
 
 **PUC Minas - Ciência da Computação - Engenharia de Software II**
 
-**Alunos: Antônio Drumond e Raquel Motta**
+**Alunos:**
+- [Antônio Drumond Cota de Sousa](https://github.com/AntonioDrumond/)
+- [Raquel de Parde Motta](https://github.com/raksmotta)
 
 ## 🛠️ Foco Técnico: Hibernate & Persistência
 
@@ -67,24 +69,36 @@ Acesse **http://localhost:8080** — frontend e API na mesma origem.
 ## Estrutura
 
 ```
-snoopy-store/
-  backend/
-    pom.xml
-    src/main/java/com/snoopystore/   (API Spring Boot)
-    src/main/resources/
-      application.properties
-      schema.sql
-      static/                        (frontend estatico)
-        index.html
-        styles.css
-        js/
-          router.js
-          api.js
-          ui.js
-          produtos.js
-          pedidos.js
-  LICENSE
-  README.md
+snoopy-store
+├── backend
+│   ├── src
+│   │   └── main
+│   │       ├── java
+│   │       │   └── com
+│   │       │       └── snoopystore
+│   │       │           ├── config
+│   │       │           ├── controller
+│   │       │           ├── dto
+│   │       │           ├── exception
+│   │       │           ├── model
+│   │       │           ├── repository
+│   │       │           ├── service
+│   │       │           └── SnoopyStoreApplication.java
+│   │       └── resources
+│   │           ├── static
+│   │           │   ├── js
+│   │           │   │   ├── api.js
+│   │           │   │   ├── pedidos.js
+│   │           │   │   ├── produtos.js
+│   │           │   │   ├── router.js
+│   │           │   │   └── ui.js
+│   │           │   ├── index.html
+│   │           │   └── styles.css
+│   │           ├── application.properties
+│   │           └── schema.sql
+│   └── pom.xml
+├── LICENSE
+└── README.md
 ```
 
 ## Stack
